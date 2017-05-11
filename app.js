@@ -42,7 +42,7 @@ var main = function() {
 			console.log(suggestion);
 			if( suggestion == "" ) $($questions.get(currentQuestion)).fadeIn();
 			else {
-				alert("A licença opensource que mais se adequa é " + suggestion);
+				alert("A licenÃ§a opensource que mais se adequa Ã© " + suggestion);
 				location.reload();
 			}
 	
